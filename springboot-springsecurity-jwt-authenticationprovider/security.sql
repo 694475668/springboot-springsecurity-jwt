@@ -36,7 +36,7 @@ CREATE TABLE `permission`  (
 -- ----------------------------
 -- Records of permission
 -- ----------------------------
-INSERT INTO `permission` VALUES (1, '系统管理', 'system_manage', 0, 0, 0, '2020-04-25 11:19:00', '2020-04-25 11:19:00');
+INSERT INTO `permission` VALUES (1, '系统管理', 'system_manage', 0, 0, 0, '2020-04-26 11:19:00', '2020-04-25 11:19:00');
 INSERT INTO `permission` VALUES (2, '用户管理', 'system_manage:user_manage', 2, 0, 1, '2020-04-25 11:19:00', '2020-04-25 11:19:00');
 INSERT INTO `permission` VALUES (3, '新增用户', 'system_manage:user_manage:insert', 2, 0, 2, '2020-04-25 11:19:00', '2020-04-25 11:19:00');
 INSERT INTO `permission` VALUES (4, '编辑用户', 'system_manage:user_manage:update', 2, 0, 2, '2020-04-25 11:19:00', '2020-04-25 11:19:00');
